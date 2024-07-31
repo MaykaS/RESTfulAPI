@@ -1,28 +1,27 @@
-//design thre schema
-import mongoose from "mongoose";
+import mongoose from 'mongoose';
 
-const Schema = mongoose.schema;
+const Schema = mongoose.Schema;
 
-export const ContactSchema = new Schem({
-    firstName:{
+export const ContactSchema = new Schema({
+    firstName: {
         type: String,
-        required: 'Enter a  first name'
+        required: 'Enter a first name'
     },
-    lastName:{
+    lastName: {
         type: String,
-        required: 'Enter a  last name'
+        required: 'Enter a last name'
     },
-    email:{
+    email: {
         type: String
     },
-    company:{
+    company: {
         type: String
     },
-    phone:{
+    phone: {
         type: Number
     },
-    created_date:{
+    created_date: {
         type: Date,
-        deafult: Date.now
+        default: Date.now
     }
-})
+});
