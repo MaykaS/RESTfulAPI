@@ -15,6 +15,9 @@ mongoose.connect('mongodb://127.0.0.1/CRMdb',{useNewUrlParser:true});
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
 
+//serving static files
+app.use(express.static('img'));
+
 routes(app);
 
 app.get('/', (req, res) => 
