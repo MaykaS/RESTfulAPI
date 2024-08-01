@@ -62,6 +62,9 @@ Here are the available endpoints:
    ```
 
 2. **Install Dependencies**   
+   ```bash
+   npm install
+   ```
 
 3. **Usage**
 
