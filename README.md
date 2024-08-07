@@ -34,6 +34,7 @@ This project is a RESTful API designed to handle basic CRUD operations for manag
 - **Mongoose**: An ODM (Object Data Modeling) library for MongoDB and Node.js, used to manage data schemas.
 - **Body-Parser**: Middleware to parse incoming request bodies in a middleware before handling them.
 - **MongoDB**: A NoSQL database used to store contact information.
+- **Postman**: A tool used for testing API endpoints and interacting with the RESTful API.
 
 ### Project Structure
 - **index.js**: The main entry point of the application. It sets up the Express server, connects to MongoDB, and defines the routes.
